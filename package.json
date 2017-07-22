@@ -1,0 +1,14 @@
+{
+  "name": "meetup",
+  "version": "0.0.1",
+  "description": "\"this is all about jest\"",
+  "main": "index.js",
+  "author": "taufik",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "scripts":{
+    "test": "jest"
+  }
+}
