@@ -8,5 +8,5 @@ describe('add', ()=> {
     let result = add(1, 1);
     let expected = 2;
     expect(result).toBe(expected);
-  }
+  });
 });
