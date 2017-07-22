@@ -39,7 +39,7 @@ describe('sum', () => {
     expect(result).toBe(expected);
   });
 
-  test(`it sums three arguments`, () => {
+  test(`it sums five arguments`, () => {
     let result = sum(1, 2, 3, 4, 5);
     let expected = 15;
     expect(result).toBe(expected);
