@@ -1,7 +1,7 @@
 // @flow
 
 // add(a: number, b: number) => number
-function add(x?: number, y?: number): ?number {
+function sum(x?: number, y?: number): ?number {
   // TODO: do the function  implementasion here
   if (typeof x === 'undefined') {
     return 0;
@@ -12,4 +12,4 @@ function add(x?: number, y?: number): ?number {
   return x + y;
 }
 
-export default add;
+export default sum;

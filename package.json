@@ -6,9 +6,14 @@
   "author": "taufik",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.51.0",
     "jest": "^20.0.4"
   },
-  "scripts":{
-    "test": "jest"
+  "scripts": {
+    "test": "jest",
+    "typecheck": "flow"
   }
 }
